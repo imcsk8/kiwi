@@ -109,7 +109,7 @@
   <!--
     ==========================================
     start with image description
-    
+
   -->
   <start>
     <ref name="k.image">
@@ -119,7 +119,7 @@
   <!--
     ==========================================
     main block: <image>
-    
+
   -->
   <div>
     <define name="k.image.name.attribute">
@@ -216,7 +216,7 @@ named /etc/ImageID</a:documentation>
   <!--
     ==========================================
     common attributes
-    
+
   -->
   <define name="k.id.attribute">
     <attribute name="id">
@@ -348,7 +348,7 @@ file was fetched</a:documentation>
   <!--
     ==========================================
     common element <extension>
-    
+
   -->
   <div>
     <define name="k.extension.attlist">
@@ -367,7 +367,7 @@ file was fetched</a:documentation>
   <!--
     ==========================================
     common element <archive>
-    
+
   -->
   <div>
     <define name="k.archive.name.attribute">
@@ -406,7 +406,7 @@ file was fetched</a:documentation>
   <!--
     ==========================================
     common element <author>
-    
+
   -->
   <div>
     <define name="k.author.attlist">
@@ -423,7 +423,7 @@ file was fetched</a:documentation>
   <!--
     ==========================================
     common element <license>
-    
+
   -->
   <div>
     <define name="k.license.attlist">
@@ -440,7 +440,7 @@ file was fetched</a:documentation>
   <!--
     ==========================================
     common element <bootloader-theme>
-    
+
   -->
   <div>
     <define name="k.bootloader-theme.attlist">
@@ -457,7 +457,7 @@ file was fetched</a:documentation>
   <!--
     ==========================================
     common element <bootsplash-theme>
-    
+
   -->
   <div>
     <define name="k.bootsplash-theme.attlist">
@@ -474,7 +474,7 @@ file was fetched</a:documentation>
   <!--
     ==========================================
     common element <contact>
-    
+
   -->
   <div>
     <define name="k.contact.attlist">
@@ -491,7 +491,7 @@ file was fetched</a:documentation>
   <!--
     ==========================================
     common element <file>
-    
+
   -->
   <div>
     <define name="k.file.name.attribute">
@@ -519,7 +519,7 @@ file was fetched</a:documentation>
   <!--
     ==========================================
     common element <ignore>
-    
+
   -->
   <div>
     <define name="k.ignore.name.attribute">
@@ -547,7 +547,7 @@ file was fetched</a:documentation>
   <!--
     ==========================================
     common element <keytable>
-    
+
   -->
   <div>
     <define name="k.keytable.attlist">
@@ -564,7 +564,7 @@ file was fetched</a:documentation>
   <!--
     ==========================================
     common element <locale>
-    
+
   -->
   <div>
     <!-- locale -->
@@ -582,7 +582,7 @@ file was fetched</a:documentation>
   <!--
     ==========================================
     common element <rpm-locale-filtering>
-    
+
   -->
   <div>
     <define name="k.rpm-locale-filtering.content">
@@ -609,7 +609,7 @@ file was fetched</a:documentation>
   <!--
     ==========================================
     common element <namedCollection>
-    
+
   -->
   <div>
     <define name="k.namedCollection.name.attribute">
@@ -637,7 +637,7 @@ file was fetched</a:documentation>
   <!--
     ==========================================
     common element <collectionModule>
-    
+
   -->
   <div>
     <sch:pattern id="collection_module_scope">
@@ -692,7 +692,7 @@ given stream) or disabled.</a:documentation>
   <!--
     ==========================================
     common element <oem-boot-title>
-    
+
   -->
   <div>
     <define name="k.oem-boot-title.attlist">
@@ -711,7 +711,7 @@ of the OEM image</a:documentation>
   <!--
     ==========================================
     common element <oem-bootwait>
-    
+
   -->
   <div>
     <define name="k.oem-bootwait.content">
@@ -731,7 +731,7 @@ of the OEM image</a:documentation>
   <!--
     ==========================================
     common element <oem-resize>
-    
+
   -->
   <div>
     <define name="k.oem-resize.content">
@@ -756,7 +756,7 @@ of the kiwi oem dracut module that implements the resize</a:documentation>
   <!--
     ==========================================
     common element <oem-resize-once>
-    
+
   -->
   <div>
     <define name="k.oem-resize-once.content">
@@ -780,7 +780,7 @@ operation happens only once and then never again</a:documentation>
   <!--
     ==========================================
     common element <oem-device-filter>
-    
+
   -->
   <div>
     <define name="k.oem-device-filter.content">
@@ -802,7 +802,7 @@ operator</a:documentation>
   <!--
     ==========================================
     common element <oem-nic-filter>
-    
+
   -->
   <div>
     <define name="k.oem-nic-filter.content">
@@ -827,7 +827,7 @@ line in a netboot deployment</a:documentation>
   <!--
     ==========================================
     common element <oem-inplace-recovery>
-    
+
   -->
   <div>
     <define name="k.oem-inplace-recovery.content">
@@ -850,7 +850,7 @@ of the oem image</a:documentation>
   <!--
     ==========================================
     common element <oem-kiwi-initrd>
-    
+
   -->
   <div>
     <define name="k.oem-kiwi-initrd.content">
@@ -871,7 +871,7 @@ and don't replace it with mkinitrd created initrd</a:documentation>
   <!--
     ==========================================
     common element <oem-partition-install>
-    
+
   -->
   <div>
     <define name="k.oem-partition-install.content">
@@ -894,7 +894,7 @@ will not have any effect</a:documentation>
   <!--
     ==========================================
     common element <oem-reboot>
-    
+
   -->
   <div>
     <define name="k.oem-reboot.content">
@@ -914,7 +914,7 @@ will not have any effect</a:documentation>
   <!--
     ==========================================
     common element <oem-reboot-interactive>
-    
+
   -->
   <div>
     <define name="k.oem-reboot-interactive.content">
@@ -935,7 +935,7 @@ with an interactive dialog true/false</a:documentation>
   <!--
     ==========================================
     common element <oem-recovery>
-    
+
   -->
   <div>
     <define name="k.oem-recovery.content">
@@ -955,7 +955,7 @@ with an interactive dialog true/false</a:documentation>
   <!--
     ==========================================
     common element <oem-recoveryID>
-    
+
   -->
   <div>
     <define name="k.oem-recoveryID.attlist">
@@ -973,7 +973,7 @@ recovery partition. Default value is 83 (Linux)</a:documentation>
   <!--
     ==========================================
     common element <oem-recovery-part-size>
-    
+
   -->
   <div>
     <define name="k.oem-recovery-part-size.attlist">
@@ -991,7 +991,7 @@ recovery partition. Value is interpreted as MB</a:documentation>
   <!--
     ==========================================
     common element <oem-shutdown>
-    
+
   -->
   <div>
     <define name="k.oem-shutdown.content">
@@ -1012,7 +1012,7 @@ true/false</a:documentation>
   <!--
     ==========================================
     common element <oem-shutdown-interactive>
-    
+
   -->
   <div>
     <define name="k.oem-shutdown-interactive.content">
@@ -1033,7 +1033,7 @@ true/false</a:documentation>
   <!--
     ==========================================
     common element <oem-silent-boot>
-    
+
   -->
   <div>
     <define name="k.oem-silent-boot.content">
@@ -1054,7 +1054,7 @@ true/false</a:documentation>
   <!--
     ==========================================
     common element <oem-silent-install>
-    
+
   -->
   <div>
     <define name="k.oem-silent-install.content">
@@ -1075,7 +1075,7 @@ dump process, true/false</a:documentation>
   <!--
     ==========================================
     common element <oem-skip-verify>
-    
+
   -->
   <div>
     <define name="k.oem-skip-verify.content">
@@ -1096,7 +1096,7 @@ verification process, true/false</a:documentation>
   <!--
     ==========================================
     common element <oem-vmcp-parmfile>
-    
+
   -->
   <div>
     <define name="k.oem-vmcp-parmfile.content">
@@ -1118,7 +1118,7 @@ is set to: PARM-S11</a:documentation>
   <!--
     ==========================================
     common element <oem-multipath-scan>
-    
+
   -->
   <div>
     <define name="k.oem-multipath-scan.content">
@@ -1139,7 +1139,7 @@ for multipath devices: true/false (default is true)</a:documentation>
   <!--
     ==========================================
     common element <oem-silent-verify>
-    
+
   -->
   <div>
     <define name="k.oem-silent-verify.content">
@@ -1160,7 +1160,7 @@ verification process, true/false</a:documentation>
   <!--
     ==========================================
     common element <oem-swap>
-    
+
   -->
   <div>
     <define name="k.oem-swap.content">
@@ -1180,7 +1180,7 @@ verification process, true/false</a:documentation>
   <!--
     ==========================================
     common element <oem-swapsize>
-    
+
   -->
   <div>
     <define name="k.oem-swapsize.attlist">
@@ -1198,7 +1198,7 @@ partition in MB</a:documentation>
   <!--
     ==========================================
     common element <oem-swapname>
-    
+
   -->
   <div>
     <define name="k.oem-swapname.attlist">
@@ -1220,7 +1220,7 @@ no effect.</a:documentation>
   <!--
     ==========================================
     common element <oem-systemsize>
-    
+
   -->
   <div>
     <define name="k.oem-systemsize.attlist">
@@ -1239,7 +1239,7 @@ will grow to the maximum available free space on the disk</a:documentation>
   <!--
     ==========================================
     common element <oem-unattended>
-    
+
   -->
   <div>
     <define name="k.oem-unattended.content">
@@ -1260,7 +1260,7 @@ true/false</a:documentation>
   <!--
     ==========================================
     common element <oem-unattended-id>
-    
+
   -->
   <div>
     <define name="k.oem-unattended-id.attlist">
@@ -1278,7 +1278,7 @@ the device is looked up in /dev/disk/by-* and /dev/mapper/*</a:documentation>
   <!--
     ==========================================
     common element <product>
-    
+
   -->
   <div>
     <define name="k.product.name.attribute">
@@ -1306,7 +1306,7 @@ the device is looked up in /dev/disk/by-* and /dev/mapper/*</a:documentation>
   <!--
     ==========================================
     common element <option>
-    
+
   -->
   <div>
     <define name="k.option.name.attribute">
@@ -1334,7 +1334,7 @@ the device is looked up in /dev/disk/by-* and /dev/mapper/*</a:documentation>
   <!--
     ==========================================
     common element <shimoption>
-    
+
   -->
   <div>
     <define name="k.shimoption.name.attribute">
@@ -1362,7 +1362,7 @@ the device is looked up in /dev/disk/by-* and /dev/mapper/*</a:documentation>
   <!--
     ==========================================
     common element <installoption>
-    
+
   -->
   <div>
     <define name="k.installoption.name.attribute">
@@ -1390,7 +1390,7 @@ the device is looked up in /dev/disk/by-* and /dev/mapper/*</a:documentation>
   <!--
     ==========================================
     common element <configoption>
-    
+
   -->
   <div>
     <define name="k.configoption.name.attribute">
@@ -1418,7 +1418,7 @@ the device is looked up in /dev/disk/by-* and /dev/mapper/*</a:documentation>
   <!--
     ==========================================
     common element <package>
-    
+
   -->
   <div>
     <define name="k.package.name.attribute">
@@ -1458,7 +1458,7 @@ the device is looked up in /dev/disk/by-* and /dev/mapper/*</a:documentation>
   <!--
     ==========================================
     common element <packagemanager>
-    
+
   -->
   <div>
     <define name="k.packagemanager.content">
@@ -1485,7 +1485,7 @@ the device is looked up in /dev/disk/by-* and /dev/mapper/*</a:documentation>
   <!--
     ==========================================
     common element <release-version>
-    
+
   -->
   <div>
     <define name="k.release-version.content">
@@ -1505,7 +1505,7 @@ the device is looked up in /dev/disk/by-* and /dev/mapper/*</a:documentation>
   <!--
     ==========================================
     common element <profile>
-    
+
   -->
   <div>
     <define name="k.profile.name.attribute">
@@ -1554,7 +1554,7 @@ packages.</a:documentation>
   <!--
     ==========================================
     common element <requires>
-    
+
   -->
   <div>
     <define name="k.requires.profile.attribute">
@@ -1578,7 +1578,7 @@ definition can be composed by other existing profiles.</a:documentation>
   <!--
     ==========================================
     common element <repository>
-    
+
   -->
   <div>
     <sch:pattern abstract="true" id="repo_type">
@@ -1777,7 +1777,7 @@ last one is picked.</a:documentation>
   <!--
     ==========================================
     common element <signing>
-    
+
   -->
   <div>
     <define name="k.signing.key.attribute">
@@ -1801,7 +1801,7 @@ repo/package signing keys</a:documentation>
   <!--
     ==========================================
     common element <source>
-    
+
   -->
   <div>
     <define name="k.source.path.attribute">
@@ -1824,7 +1824,7 @@ as well as a path specification</a:documentation>
   <!--
     ==========================================
     common element <rpm-check-signatures>
-    
+
   -->
   <div>
     <define name="k.rpm-check-signatures.content">
@@ -1849,7 +1849,7 @@ The default value is false.</a:documentation>
   <!--
     ==========================================
     common element <rpm-excludedocs>
-    
+
   -->
   <div>
     <define name="k.rpm-excludedocs.content">
@@ -1871,7 +1871,7 @@ according to the used package manager.</a:documentation>
   <!--
     ==========================================
     common element <showlicense>
-    
+
   -->
   <div>
     <define name="k.showlicense.attlist">
@@ -1889,7 +1889,7 @@ will be displayed in a dialog window on boot.</a:documentation>
   <!--
     ==========================================
     common element <size>
-    
+
   -->
   <div>
     <define name="k.size.unit.attribute">
@@ -1945,7 +1945,7 @@ to the required size of the image</a:documentation>
   <!--
     ==========================================
     common element <specification>
-    
+
   -->
   <div>
     <define name="k.specification.attlist">
@@ -1963,7 +1963,7 @@ can be used for.</a:documentation>
   <!--
     ==========================================
     common element <systemdisk>
-    
+
   -->
   <div>
     <define name="k.systemdisk.name.attribute">
@@ -2005,7 +2005,7 @@ volume management system</a:documentation>
   <!--
     ==========================================
     common element <timezone>
-    
+
   -->
   <div>
     <define name="k.timezone.attlist">
@@ -2022,7 +2022,7 @@ volume management system</a:documentation>
   <!--
     ==========================================
     common element <type>
-    
+
   -->
   <div>
     <sch:pattern abstract="true" id="image_type">
@@ -2296,7 +2296,7 @@ in MB. If not set the min efifatimage size is set to 20 MB</a:documentation>
       </attribute>
       <sch:pattern id="efifatimagesize" is-a="image_type">
         <sch:param name="attr" value="efifatimagesize"/>
-        <sch:param name="types" value="oem"/>
+        <sch:param name="types" value="iso"/>
       </sch:pattern>
     </define>
     <define name="k.type.dosparttable_extended_layout.attribute">
@@ -3453,7 +3453,7 @@ kiwi-ng result bundle ...</a:documentation>
   <!--
     ==========================================
     common element <user>
-    
+
   -->
   <div>
     <define name="k.user.name.attribute">
@@ -3538,7 +3538,7 @@ to the user according to he specifing toolchain behaviour.</a:documentation>
   <!--
     ==========================================
     common element <version>
-    
+
   -->
   <div>
     <define name="k.version.attlist">
@@ -3557,7 +3557,7 @@ to the user according to he specifing toolchain behaviour.</a:documentation>
   <!--
     ==========================================
     common element <vmconfig-entry>
-    
+
   -->
   <div>
     <define name="k.vmconfig-entry.attlist">
@@ -3576,7 +3576,7 @@ to the user according to he specifing toolchain behaviour.</a:documentation>
   <!--
     ==========================================
     common element <vmdisk>
-    
+
   -->
   <div>
     <define name="k.vmdisk.disktype.attribute">
@@ -3653,7 +3653,7 @@ by the VM (ova only)</a:documentation>
   <!--
     ==========================================
     common element <vmdvd>
-    
+
   -->
   <div>
     <define name="k.vmdvd.controller.attribute">
@@ -3691,7 +3691,7 @@ scsi CD or an ide CD drive</a:documentation>
   <!--
     ==========================================
     common element <vmnic>
-    
+
   -->
   <div>
     <define name="k.vmnic.driver.attribute">
@@ -3742,7 +3742,7 @@ scsi CD or an ide CD drive</a:documentation>
   <!--
     ==========================================
     common element <partition>
-    
+
   -->
   <div>
     <sch:pattern abstract="true" id="partition_name_type">
@@ -3846,7 +3846,7 @@ Allowed values are: t.linux</a:documentation>
   <!--
     ==========================================
     common element <volume>
-    
+
   -->
   <div>
     <define name="k.volume.freespace.attribute">
@@ -3949,7 +3949,7 @@ on an extra volume.</a:documentation>
   <!--
     ==========================================
     main block: <include>
-    
+
   -->
   <div>
     <define name="k.include.from.attribute">
@@ -3970,7 +3970,7 @@ statement with its contents</a:documentation>
   <!--
     ==========================================
     main block: <description>
-    
+
   -->
   <div>
     <define name="k.description.type.attribute">
@@ -4010,7 +4010,7 @@ a standard image description created by a kiwi user.</a:documentation>
   <!--
     ==========================================
     main block: <drivers>
-    
+
   -->
   <div>
     <define name="k.drivers.profiles.attribute">
@@ -4036,7 +4036,7 @@ a standard image description created by a kiwi user.</a:documentation>
   <!--
     ==========================================
     main block: <strip>
-    
+
   -->
   <div>
     <define name="k.strip.type.attribute">
@@ -4078,7 +4078,7 @@ references file names in linux lib directories to keep.</a:documentation>
   <!--
     ==========================================
     main block: <bootloader>
-    
+
   -->
   <div>
     <sch:pattern abstract="true" id="bootloader_image_type">
@@ -4246,7 +4246,7 @@ and to provide configuration parameters for it</a:documentation>
   <!--
     ==========================================
     main block: <containerconfig>
-    
+
   -->
   <div>
     <sch:pattern abstract="true" id="container_type">
@@ -4373,7 +4373,7 @@ section provides globally useful container information.</a:documentation>
   <!--
     ==========================================
     main block: <entrypoint>
-    
+
   -->
   <div>
     <define name="k.entrypoint.execute.attribute">
@@ -4404,7 +4404,7 @@ can be optionally specified</a:documentation>
   <!--
     ==========================================
     main block: <subcommand>
-    
+
   -->
   <div>
     <define name="k.subcommand.execute.attribute">
@@ -4439,7 +4439,7 @@ execution command</a:documentation>
   <!--
     ==========================================
     main block: <argument>
-    
+
   -->
   <div>
     <define name="k.argument.name.attribute">
@@ -4463,7 +4463,7 @@ execution command</a:documentation>
   <!--
     ==========================================
     main block: <expose>
-    
+
   -->
   <div>
     <define name="k.expose.attlist">
@@ -4486,7 +4486,7 @@ be configured</a:documentation>
   <!--
     ==========================================
     main block: <port>
-    
+
   -->
   <div>
     <define name="k.port.number.attribute">
@@ -4512,7 +4512,7 @@ If no protocol is defined OCI defaults are applied.</a:documentation>
   <!--
     ==========================================
     main block: <volumes>
-    
+
   -->
   <div>
     <define name="k.volumes.attlist">
@@ -4534,7 +4534,7 @@ At least one volume must be configured</a:documentation>
   <!--
     ==========================================
     main block: <partitions>
-    
+
   -->
   <div>
     <define name="k.partitions.attlist">
@@ -4556,7 +4556,7 @@ of the storage device</a:documentation>
   <!--
     ==========================================
     main block: <luksformat>
-    
+
   -->
   <div>
     <sch:pattern id="luks_requirement">
@@ -4582,7 +4582,7 @@ of the storage device</a:documentation>
   <!--
     ==========================================
     main block: <bootloadersettings>
-    
+
   -->
   <div>
     <define name="k.bootloadersettings.attlist">
@@ -4609,7 +4609,7 @@ of the storage device</a:documentation>
   <!--
     ==========================================
     main block: <environment>
-    
+
   -->
   <div>
     <define name="k.environment.attlist">
@@ -4631,7 +4631,7 @@ At least one environment variable must be configured</a:documentation>
   <!--
     ==========================================
     main block: <env>
-    
+
   -->
   <div>
     <define name="k.env.name.attribute">
@@ -4663,7 +4663,7 @@ At least one environment variable must be configured</a:documentation>
   <!--
     ==========================================
     main block: <labels>
-    
+
   -->
   <div>
     <define name="k.labels.attlist">
@@ -4685,7 +4685,7 @@ At least one label must be configured</a:documentation>
   <!--
     ==========================================
     main block: <label>
-    
+
   -->
   <div>
     <define name="k.label.name.attribute">
@@ -4717,7 +4717,7 @@ At least one label must be configured</a:documentation>
   <!--
     ==========================================
     main block: <history>
-    
+
   -->
   <div>
     <define name="k.history.created_by.attribute">
@@ -4781,7 +4781,7 @@ the 'comment' entry.</a:documentation>
   <!--
     ==========================================
     main block: <oemconfig>
-    
+
   -->
   <div>
     <define name="k.oemconfig.attlist">
@@ -4885,7 +4885,7 @@ and setup the system disk.</a:documentation>
   <!--
     ==========================================
     main block: <vagrantconfig>
-    
+
   -->
   <div>
     <sch:pattern abstract="true" id="vagrant_provider">
@@ -4961,7 +4961,7 @@ configuration options which are used inside a vagrant box</a:documentation>
   <!--
     ==========================================
     main block: <installmedia>
-    
+
   -->
   <div>
     <sch:pattern id="installation_media">
@@ -4988,7 +4988,7 @@ for the installation media of OEM images.</a:documentation>
   <!--
     ==========================================
     main block: <initrd>
-    
+
   -->
   <div>
     <define name="k.initrd.action.attribute">
@@ -5022,7 +5022,7 @@ for the installation media.</a:documentation>
   <!--
     ==========================================
     main block: <dracut>
-    
+
   -->
   <div>
     <define name="k.dracut.module.attribute">
@@ -5043,7 +5043,7 @@ for the installation media.</a:documentation>
   <!--
     ==========================================
     main block: <machine>
-    
+
   -->
   <div>
     <define name="k.machine.ovftype.attribute">
@@ -5195,7 +5195,7 @@ running the image.</a:documentation>
   <!--
     ==========================================
     main block: <packages>
-    
+
   -->
   <div>
     <sch:pattern abstract="true" id="packages_type">
@@ -5302,7 +5302,7 @@ alternative bootstrap method for debootstrap</a:documentation>
   <!--
     ==========================================
     main block: <preferences>
-    
+
   -->
   <div>
     <define name="k.preferences.profiles.attribute">
@@ -5375,7 +5375,7 @@ definition</a:documentation>
   <!--
     ==========================================
     main block: <profiles>
-    
+
   -->
   <div>
     <define name="k.profiles.attlist">
@@ -5397,7 +5397,7 @@ drivers can bind itself to one of the listed namespaces.</a:documentation>
   <!--
     ==========================================
     main block: <users>
-    
+
   -->
   <div>
     <define name="k.users.profiles.attribute">
